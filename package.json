@@ -1,11 +1,14 @@
 {
   "name": "trello",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto con configuración externalizada",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lu",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
 }
